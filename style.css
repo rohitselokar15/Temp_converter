@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(245, 237, 223);
+}
+#tempCalc{
+    /* border: 2px solid red; */
+    width: 40%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: bisque; */
+    
+}
+
+.area{
+    /* border: 2px solid blue; */
+    width: 90%;
+    height: 60vh;
+    margin: 15px 15px;
+    /* background-color: azure; */
+}
+
+.heading{
+    /* border: 2px solid green; */
+    height: 3vh;
+    font-size: 24px;
+    font-weight: bold;
+    /* margin-top: 35px; */
+    padding: 5px;
+}
+
+#temp{
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 33%;
+    align-items: center;
+    margin: 41px 31px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 7px;
+
+}
+
+#temp_diff{
+    padding: 8px 26px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+input.btn{
+    /* background-color: aquamarine; */
+    margin-left: 135px;
+    font-size: 24px;
+    padding: 4px 48px;
+    font-weight: 600;
+    border: none;
+    background-color: aqua;
+    border-radius: 7px;
+}
+
+#resultContainer{
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 31%;
+    align-items: center;
+    margin: 39px 137px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+    
+}
